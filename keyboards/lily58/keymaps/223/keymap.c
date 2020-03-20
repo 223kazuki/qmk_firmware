@@ -24,7 +24,7 @@ extern uint8_t is_master;
 #define _ADJUST 3
 
 // My codes
-#define KC_LOTP LT(_LOWER, KC_F12)
+#define KC_LOTP LT(_LOWER, KC_F10)
 #define KC_MAPP LSFT(KC_F10)
 #define KC_ALFT LALT(KC_LEFT)
 #define KC_ARGT LALT(KC_RGHT)
@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * | LGUI |   A  |   S  |   D  |   F  |   G  |-------.    ,-------|   H  |   J  |   K  |   L  |   ;  |  '   |
  * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
  * |LShift|   Z  |   X  |   C  |   V  |   B  |-------|    |-------|   N  |   M  |   ,  |   .  |   /  |  =   |
- * `-----------------------------------------/ F12   /     \      \-----------------------------------------'
+ * `-----------------------------------------/ F10   /     \      \-----------------------------------------'
  *                   | LCTRL| LAlt | LGUI | /LOWER  /       \Space \  | F11  | SF10 |Enter |
  *                   |      |      |      |/       /         \      \ |      |      |      |
  *                   `----------------------------'           '------''--------------------'
