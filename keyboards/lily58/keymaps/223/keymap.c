@@ -65,22 +65,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------.                    ,-----------------------------------------.
  * |  F12 |  F1  |  F2  |  F3  |  F4  |  F5  |                    |  F6  |  F7  |  F8  |  F9  | F10  | F11  |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
- * |  `   |  +   |  7   |  8   |  9   |  0   |                    |      | ESC  |PageUp|PageDn|  !   |  -   |
+ * |  `   |  +   |  7   |  8   |  9   |  0   |                    | Tab  | ESC  |PageUp|PageDn|  =   |  -   |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * | LGUI |  -   |  4   |  5   |  6   |  /   |-------.    ,-------| Home | Left |  Up  | Down |Right | End  |
  * |------+------+------+------+------+------|   (   |    |   )   |------+------+------+------+------+------|
- * |LShift|  *   |  1   |  2   |  3   |  =   |-------|    |-------| Bspc | Del  |   %  |   ^  |   &  |  *   |
+ * |LShift|  *   |  1   |  2   |  3   |  =   |-------|    |-------| Bspc | Del  |   ~  |   !  |   @  |  #   |
  * `-----------------------------------------/       /     \      \-----------------------------------------'
- *                   |  0   |  0   |  .   | /       /       \Enter \  |  @   |  #   |  $   |
+ *                   |  0   |  0   |  .   | /       /       \Enter \  |  $   |  %   |      |
  *                   |      |      |      |/       /         \      \ |      |      |      |
  *                   `----------------------------'           '------''--------------------'
  */
   [_LOWER] = LAYOUT( \
   KC_F12,  KC_F1,   KC_F2,  KC_F3,  KC_F4,  KC_F5,                    KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11, \
-  KC_GRV,  KC_PPLS, KC_P7,  KC_P8,  KC_P9,  KC_P0,                    XXXXXXX, KC_ESC,  KC_PGUP, KC_PGDN, KC_EXLM, KC_MINS, \
+  KC_GRV,  KC_PPLS, KC_P7,  KC_P8,  KC_P9,  KC_P0,                    KC_TAB,  KC_ESC,  KC_PGUP, KC_PGDN, KC_EQL,  KC_MINS, \
   _______, KC_PMNS, KC_P4,  KC_P5,  KC_P6,  KC_PSLS,                  KC_HOME, KC_LEFT, KC_UP,   KC_DOWN, KC_RGHT, KC_END, \
-  _______, KC_PAST, KC_P1,  KC_P2,  KC_P3,  KC_PEQL, KC_LPRN,KC_RPRN, KC_BSPC, KC_DEL,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, \
-                            KC_P0,  KC_P0,  KC_PDOT, _______, KC_ENT, KC_AT,   KC_HASH, KC_DLR  \
+  _______, KC_PAST, KC_P1,  KC_P2,  KC_P3,  KC_PEQL, KC_LPRN,KC_RPRN, KC_BSPC, KC_ALFT, KC_TILD, KC_EXLM, KC_AT,   KC_HASH, \
+                            KC_P0,  KC_P0,  KC_PDOT, _______, KC_ENT, KC_DLR,  KC_PERC, _______ \
 ),
 /* RAISE
  * ,-----------------------------------------.                    ,-----------------------------------------.
